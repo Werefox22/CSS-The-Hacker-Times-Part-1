@@ -23,8 +23,18 @@ body {
 	background-color: #eee;
 }
 
+header {
+	font-family: "Abril Fatface", serif;
+}
+
 h1 {
 	text-align: center;
+}
+
+/* All images should have rounded edges */
+img {
+	border: hidden;
+	border-radius: 5px;
 }
 
 /* Navbar */
@@ -48,23 +58,28 @@ nav a {
 .newspaper-container {
 	background-color: white;
 	box-shadow: 5px 5px 5px #ddd;
-	width: 50%;
+	width: 80%;
 	margin: auto;
 	border: 0 hidden;
 	border-radius: 1em;
 	padding: 1em;
 }
 
-header {
-	font-family: "Abril Fatface", serif;
-}
-
 /* Front page article header */
 main h2 {
 	font-family: "Roboto Slab", sans-serif;
+	margin: 0.5em 0;
 }
 
 /* Author text */
 main h5 {
 	color: #dd3232;
+	font-family: "Abril Fatface", serif;
+	margin: 0.5em 0;
+}
+
+main img {
+	display: block;
+	width: 95%;
+	margin: auto;
 }
