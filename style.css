@@ -20,12 +20,29 @@
 
 body {
 	font-family: "Source Sans Pro", sans-serif;
+	background-color: #eee;
+}
+
+nav a {
+	color: #777;
+}
+
+/* Newspaper container */
+.newspaper-container {
+	background-color: white;
+	box-shadow: 5px 5px 5px #ddd;
 }
 
 header {
 	font-family: "Abril Fatface", serif;
 }
 
-h2 {
+/* Front page article header */
+main h2 {
 	font-family: "Roboto Slab", sans-serif;
+}
+
+/* Author text */
+main h5 {
+	color: #dd3232;
 }
