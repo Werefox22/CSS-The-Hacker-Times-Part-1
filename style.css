@@ -18,14 +18,30 @@
 	All other text (headers, body, etc.): default (black)
  */
 
-
 body {
 	font-family: "Source Sans Pro", sans-serif;
 	background-color: #eee;
 }
 
+h1 {
+	text-align: center;
+}
+
+/* Navbar */
+nav {
+	text-align: center;
+	border: 1px #ddd;
+	border-style: solid hidden;
+}
+
+nav li {
+	display: inline;
+	padding: 0 1em;
+}
+
 nav a {
 	color: #777;
+	text-decoration: none;
 }
 
 /* Newspaper container */
