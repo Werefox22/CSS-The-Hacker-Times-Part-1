@@ -44,6 +44,10 @@ nav {
 	border-style: solid hidden;
 }
 
+nav ul {
+	padding: 0;
+}
+
 nav li {
 	display: inline;
 	padding: 0 1em;
