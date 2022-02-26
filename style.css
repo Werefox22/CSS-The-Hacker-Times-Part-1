@@ -18,6 +18,7 @@
 	All other text (headers, body, etc.): default (black)
  */
 
+
 body {
 	font-family: "Source Sans Pro", sans-serif;
 	background-color: #eee;
@@ -31,6 +32,11 @@ nav a {
 .newspaper-container {
 	background-color: white;
 	box-shadow: 5px 5px 5px #ddd;
+	width: 50%;
+	margin: auto;
+	border: 0 hidden;
+	border-radius: 1em;
+	padding: 1em;
 }
 
 header {
