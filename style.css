@@ -39,6 +39,9 @@ img {
 
 /* Navbar */
 nav {
+	position: sticky;
+	top: 0px;
+	background-color: white;
 	text-align: center;
 	border: 1px #ddd;
 	border-style: solid hidden;
