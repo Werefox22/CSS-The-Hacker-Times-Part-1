@@ -98,7 +98,9 @@ main img {
 
 .more-articles section {
 	display: inline-block;
-	width: 45%;
+	width: 44%;
+	box-sizing: border-box;
+
 	margin: 1em;
 	padding: 1em;
 }
